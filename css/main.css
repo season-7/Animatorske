@@ -155,9 +155,11 @@ body{
      border:1px solid #CCC;
     cursor:pointer;
     vertical-align:middle;
-    left: 30%;
-    top: 30%;
+   
     position: absolute;
+    left:25%;
+    top: 30%;
+    
     
 }
 .middle h2{
@@ -166,4 +168,15 @@ body{
     font-weight: bolder;
     line-height: 1.9;
     
+}
+.orbit-container{
+    height: 70%;
+    
+}
+#demo-canvas{
+    
+    justify-content: center;
+    vertical-align: middle;
+    align-content: center;
+    text-align: center;
 }
