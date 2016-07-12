@@ -1,60 +1,72 @@
-<!doctype html>
-<html class="no-js" lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animation Site</title>
-     <meta name="description" content="description here">
-     <meta name="keywords" content="keywords,here">
-    
-    <!--Foundation link-->
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Animated Background Headers | Demo 2</title>
+        <meta name="description" content="Examples for creative website header animations using Canvas and JavaScript" />
+        <meta name="keywords" content="header, canvas, animated, creative, inspiration, javascript" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico">
+        <!-- <link rel="stylesheet" type="text/css" href="css/normalize.css" /> -->
+          <!--Foundation link-->
     <link rel="stylesheet" href="css/foundation-6.2.3/css/foundation.css">
     <link rel="stylesheet" href="css/foundation-6.2.3/css/app.css">
-    
+
     <!--Main Stylesheet-->
     <link rel="stylesheet" href="css/main.css">
-    
-    <!--Js modenizer-->
-    <script src="js/vendor/modernizr.js"></script>
-    
+
+
     <!--Font awesome icons-->
     <link rel= "stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css"/>
-     
+
     <!--Local Font awesome-->
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-     
+
     <!--Ionicons link-->
     <link href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' rel='stylesheet' type='text/css'>
-    
+
     <!--Local Ionicons-->
     <link rel="stylesheet" href="css/ionicons-2.0.1/css/ionicons.min.css">
-      
+
     <!--Animate.css link-->
     <link rel="stylesheet" href="animate.min.css">
        <link rel="stylesheet" href="http://s.mlcdn.co/animate.css">
-    
+       <link rel="stylesheet" type="text/css" href="css/demo.css" />
+       <link rel="stylesheet" type="text/css" href="css/component.css" />
+
     <!--Google Fonts-->
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-</head>
-<body>
-<!--Sticky NavBar-->
-    <div data-sticky-container>
+      <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
+        
+        
+        
+        
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
+        <link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800|Clicker+Script' rel='stylesheet' type='text/css'>
+         <!--Main Stylesheet-->
+    <link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+           <div data-sticky-container>
   <div class="title-bar" data-sticky data-options="marginTop:0;" style="width:100%" data-top-anchor="1" data-btm-anchor="content:bottom">
     <div class="title-bar-left"><i class="ion-home" style="font-size:30px;"></i></div>
     <div class="title-bar-right">
         <a href="#" style="margin:0 10px 0 0;">Home</a>
         <a href="#">About</a>
       </div>
-  </div>  
+  </div>
 </div>
 <!--Image Slider Bg.-->
     <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
        <ul class="orbit-container">
     <li class="is-active orbit-slide">
-      <img class="orbit-image" src="img/car.jpg" alt="Car">      
+      <img class="orbit-image" src="img/car.jpg" alt="Car">
     </li>
     <li class="orbit-slide">
       <img class="orbit-image" src="img/nature.jpg" alt="Nature">
@@ -65,7 +77,7 @@
     <li class="orbit-slide">
       <img class="orbit-image" src="img/window.jpg" alt="Window">
     </li>
-  </ul> 
+  </ul>
         <div class="middle">
         <h2>Animatorske</h2>
         <div id="button" class="animated infinite bounceIn">Click Me</div>
@@ -92,15 +104,38 @@ Probo voluptaria te est. Eum etiam malorum no. Pro ei facer velit. Pri legere eu
 
 Nec an graeci deleniti mediocritatem, ius no harum commodo repudiare. Movet dolore tamquam mea cu. Ea equidem accumsan cotidieque sit, an vis case sonet suavitate. Inermis elaboraret duo ei, at eum prompta dissentias philosophia, meis dissentiet consectetuer ne qui. Perpetua iracundia philosophia ei duo, alterum mnesarchum id eos.
 
-Probo voluptaria te est. Eum etiam malorum no. Pro ei facer velit. Pri legere euismod theophrastus ei, adhuc principes delicatissimi ne quo.</p></div>            
+Probo voluptaria te est. Eum etiam malorum no. Pro ei facer velit. Pri legere euismod theophrastus ei, adhuc principes delicatissimi ne quo.</p></div>
 </div>
 </section>
- <script src="css/foundation-6.2.3/js/vendor/jquery.js"></script>
-    <script src="css/foundation-6.2.3/js/vendor/foundation.min.js"></script>
+<div class="container demo-2">
+			<div class="content">
+                <div id="large-header" class="large-header">
+                    <canvas id="demo-canvas"></canvas>
+                    <button id="main-title" class="main-title" onclick="showb()">Click here</button>
+                </div>
+
+
+            </div>
+
+		</div>
+         <script src="js/rAF.js"></script>
+        <script src="js/demo-2.js"></script>
+        
+          <!--Js modenizer-->
+<script src="js/vendor/modernizr.js"></script>
+<script src="css/foundation-6.2.3/js/vendor/jquery.js"></script>
+    <script src="css/foundation-6.2.3/js/vendor/what-input.js"></script>
     <script src="css/foundation-6.2.3/js/vendor/foundation.js"></script>
-    <script src="css/foundation-6.2.3/js/vendor/foundation.orbit.js"></script>
-  <script>
-    $(document).foundation();
-  </script>
-</body>
+    <script src="css/foundation-6.2.3/js/app.js"></script>
+<script type="text/javascript">
+    function showb(){
+        
+        
+//        $('.main-title').addClass('animated bounceOutLeft');
+        $('.main-title').addClass('animated  wobble');
+    }
+</script>
+        
+        
+	</body>
 </html>
