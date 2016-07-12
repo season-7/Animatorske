@@ -50,6 +50,27 @@
       </div>
   </div>  
 </div>
+<!--Image Slider Bg.-->
+    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+       <ul class="orbit-container">
+    <li class="is-active orbit-slide">
+      <img class="orbit-image" src="img/car.jpg" alt="Car">      
+    </li>
+    <li class="orbit-slide">
+      <img class="orbit-image" src="img/nature.jpg" alt="Nature">
+    </li>
+    <li class="orbit-slide">
+      <img class="orbit-image" src="img/wall.jpg" alt="Wall">
+    </li>
+    <li class="orbit-slide">
+      <img class="orbit-image" src="img/window.jpg" alt="Window">
+    </li>
+  </ul> 
+        <div class="middle">
+        <h2>Animatorske</h2>
+        <div id="button" class="animated infinite bounceIn">Click Me</div>
+    </div>
+</div>
  <script src="css/foundation-6.2.3/js/vendor/jquery.js"></script>
     <script src="css/foundation-6.2.3/js/vendor/foundation.min.js"></script>
     <script src="css/foundation-6.2.3/js/vendor/foundation.js"></script>
