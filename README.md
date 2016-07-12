@@ -1,2 +1,3 @@
 # Animatorske
-This is a website based on Animations
+
+This is an animations website, showing animations for text, images and website elements.
