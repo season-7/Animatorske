@@ -35,7 +35,7 @@
     }
 
     function scrollCheck() {
-        if(document.body.scrollTop > height) animateHeader = false;
+        if(document.body.scrollTop > height+1000) animateHeader = false;
         else animateHeader = true;
     }
 
